@@ -49,7 +49,14 @@
     width: 100%;
     object-fit: cover;
     display: block;
+    overflow: hidden;
 }
+
+.post_el_thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+
 
 .el_post_text {
     margin-top: 20px;
